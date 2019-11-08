@@ -67,7 +67,7 @@ def FLASH(dataset):
     for i in range(len(modeling_pool)):
         final_X.append(convert(modeling_pool[i]))
         final_config = convert(modeling_pool[i])
-        final_Y.append(CART(data_albrecht(), a=final_config[0], b=final_config[1], c=final_config[2]))
+        final_Y.append(CART(dataset, a=final_config[0], b=final_config[1], c=final_config[2]))
 
     best_index = np.argmin(final_Y)   ######### for MRE
     # best_index = np.argmax(final_Y)   ######### for SA
