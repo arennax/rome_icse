@@ -5,19 +5,27 @@
 
 ## Submission 
 
-Submitted to [International Conference on Software Engineering](https://conf.researchr.org/home/icse-2020).
+Submitted to [International Conference on Software Engineering] (https://conf.researchr.org/home/icse-2020).
 
 ## Authors
 
 + Tianpei Xia
   + Com. Sci., NC State, USA 
   + txia4@ncsu.edu
++ Jianfeng Chen
+  + Com. Sci., NC State, USA 
+  + jchen37@ncsu.edu
++ Rui Shu
+  + Com. Sci., NC State, USA 
+  + rshu@ncsu.edu
 + Tim Menzies
   + Com. Sci., NC State, USA 
-  + tim.menzies@gmail.com
+  + timm@ieee.org
 
 ## Data
 
++ [SEACRAFT on (Zenodo)](https://zenodo.org/communities/seacraft/search?page=1&size=20&q=effort)
++ [SEACRAFT on (Zenodo)](https://zenodo.org/communities/seacraft/search?page=1&size=20&q=effort)
 + [SEACRAFT on (Zenodo)](https://zenodo.org/communities/seacraft/search?page=1&size=20&q=effort)
 
 ## Source Code
