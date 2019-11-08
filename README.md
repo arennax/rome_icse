@@ -1,7 +1,7 @@
 
 # ROME (Rapid Optimizing Methods for Estimation)
 
-![](http://graphics8.nytimes.com/images/2013/01/27/business/27-STRA/27-STRA-articleLarge.jpg)
+![](https://github.com/arennax/rome_icse/blob/master/img/rome.jpg)
 
 ## Submission 
 
