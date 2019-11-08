@@ -35,6 +35,10 @@ Submitted to [International Conference on Software Engineering](https://conf.res
 + [Estimators](https://github.com/arennax/rome_icse/blob/master/experiments/learners.py)
 + [ROME and DE](https://github.com/arennax/rome_icse/blob/master/experiments/tuned_learners.py)
 
+## Experiment Replication
+
+To reproduce the experiment results, execute `main.py` in `experiments`, you need to select specific performance metrics inside `main.py`, `methods = 0` stands for Magnitude of the Relative Error, `methods = 1` stands for SA (Standardized Accuracy).
+
 ## License
 
 This is free and unencumbered software released into the public domain.
