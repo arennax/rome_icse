@@ -41,7 +41,7 @@ To reproduce the experiment results, execute `main.py` in `experiments`, you nee
 
 To get the scott-knott test results of experiments, execute `sk_stats.py` by typing `cat name.txt| python2 sk_stats.py --text 30 --latex True` (For windows, use `type` instead of `cat`), this will output a latex-friendly scott-knott charts for this specific `.txt` file.
 
-Note that `sk_stats.py` in this program only supports python 2 at this moment.
+Note that `sk_stats.py` in this program only supports python 2.7 at this moment.
 
 ## License
 
