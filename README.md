@@ -22,7 +22,7 @@ Submitted to [International Conference on Software Engineering](https://conf.res
   + Computer Science, NC State University, USA 
   + timm@ieee.org
 
-## Data
+## Dataset
 
 + [SEACRAFT on Zenodo](https://zenodo.org/communities/seacraft/search?page=1&size=20&q=effort)
 + [COCOMO Style](https://github.com/arennax/rome_icse/tree/master/data/cocomo_style)
