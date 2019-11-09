@@ -7,6 +7,18 @@
 
 Submitted to [International Conference on Software Engineering](https://conf.researchr.org/home/icse-2020).
 
+
+
+## Experiment Replication
+
+To reproduce the experiment results, execute `main.py` in directory `experiments`, you need to select specific performance metrics inside `main.py`: `methods = 0` stands for Magnitude of the Relative Error, `methods = 1` stands for SA (Standardized Accuracy). You will get a `.txt` file which stores the numeric experiment results in directory `output`.
+
+To get the scott-knott test results of experiments, execute `sk_stats.py` by typing `cat name.txt| python2 sk_stats.py --text 30 --latex True` (For windows, use `type` instead of `cat`), this will output a latex-friendly scott-knott charts for this specific `.txt` file. The actually output will look like this:
+
+<img width="600" alt="table_V" src="https://github.com/arennax/rome_icse/blob/master/img/sk_temp.png">
+
+Note that `sk_stats.py` in this program currently only supports python 2.7.
+
 ## Authors
 
 + Tianpei Xia
@@ -34,16 +46,6 @@ Submitted to [International Conference on Software Engineering](https://conf.res
 + [Optimizers](https://github.com/arennax/rome_icse/blob/master/experiments/optimizers.py)
 + [Estimators](https://github.com/arennax/rome_icse/blob/master/experiments/learners.py)
 + [ROME and DE](https://github.com/arennax/rome_icse/blob/master/experiments/tuned_learners.py)
-
-## Experiment Replication
-
-To reproduce the experiment results, execute `main.py` in directory `experiments`, you need to select specific performance metrics inside `main.py`: `methods = 0` stands for Magnitude of the Relative Error, `methods = 1` stands for SA (Standardized Accuracy). You will get a `.txt` file which stores the numeric experiment results in directory `output`.
-
-To get the scott-knott test results of experiments, execute `sk_stats.py` by typing `cat name.txt| python2 sk_stats.py --text 30 --latex True` (For windows, use `type` instead of `cat`), this will output a latex-friendly scott-knott charts for this specific `.txt` file. The actually output will look like this:
-
-<img width="600" alt="table_V" src="https://github.com/arennax/rome_icse/blob/master/img/sk_temp.png">
-
-Note that `sk_stats.py` in this program currently only supports python 2.7.
 
 ## License
 
